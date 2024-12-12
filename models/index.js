@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
-const User = require("./user.model");
+const Class = require("./class");
+const Student = require("./student");
+const Subject = require("./subjects");
 
-const db = {}
-
-// Define schema
-db.User = User
-
-
+const db = {};
+db.Class = Class
+db.Student = Student
+db.Subject = Subject
 
 module.exports = db;
